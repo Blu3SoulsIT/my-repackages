@@ -1,0 +1,362 @@
+[
+    {
+        "pname": "Eto.Platform.Gtk",
+        "version": "2.6.1",
+        "hash": "sha256-YQocKv0AxZemFMaB97HhOUIne/2vxriPOfkRkwoWAl0="
+    },
+    {
+        "pname": "DebounceThrottle",
+        "version": "2.0.0",
+        "hash": "sha256-STqGsbo9T4Xb7LywHwZei9hTVD2kqaxStobW+KWebIg="
+    },
+    {
+        "pname": "Eto.Forms",
+        "version": "2.6.1",
+        "hash": "sha256-/7eJuyVCOdLj7Y3YN1Cjrntf1FE7sulAT5dmFC2UR3k="
+    },
+    {
+        "pname": "Gw2Sharp",
+        "version": "0.6.0",
+        "hash": "sha256-+AOhGe9T+Cpxf1bBxca8vpHCqLh0ayOeCJz/1yVM1Rw="
+    },
+    {
+        "pname": "Newtonsoft.Json",
+        "version": "13.0.2",
+        "hash": "sha256-ESyjt/R7y9dDvvz5Sftozk+e/3Otn38bOcLGGh69Ot0="
+    },
+    {
+        "pname": "RestSharp",
+        "version": "106.12.0",
+        "hash": "sha256-NGzveByJvCRtHlI2C8d/mLs3akyMm77NER8TUG6HiD4="
+    },
+    {
+        "pname": "System.Net.Http",
+        "version": "4.3.4",
+        "hash": "sha256-FMoU0K7nlPLxoDju0NL21Wjlga9GpnAoQjsFhFYYt00="
+    },
+    {
+        "pname": "System.ComponentModel.Annotations",
+        "version": "5.0.0",
+        "hash": "sha256-0pST1UHgpeE6xJrYf5R+U7AwIlH3rVC3SpguilI/MAg="
+    },
+    {
+        "pname": "GtkSharp",
+        "version": "3.24.24.34",
+        "hash": "sha256-i0XZfzUt9GNaZD1uXNd8x+pb1mPJqYrxQd15XOuHSAA="
+    },
+    {
+        "pname": "System.IO.Compression",
+        "version": "4.3.0",
+        "hash": "sha256-f5PrQlQgj5Xj2ZnHxXW8XiOivaBvfqDao9Sb6AVinyA="
+    },
+    {
+        "pname": "Microsoft.NETCore.Platforms",
+        "version": "7.0.4",
+        "hash": "sha256-VX+zrmzGUBaBbtJyV3ZUp7wTf3YHUYuj5hWCOuaO1Sk="
+    },
+    {
+        "pname": "runtime.native.System",
+        "version": "4.3.1",
+        "hash": "sha256-Ezxni8//ko4X51Urfz/crb0+dqWfq46eZvVyt0S0tso="
+    },
+    {
+        "pname": "AtkSharp",
+        "version": "3.24.24.95",
+        "hash": "sha256-NgdWbXToBHhEVbvPrFcwXeit5iaqbBmNPQiC0jPKlnQ="
+    },
+    {
+        "pname": "runtime.native.System.Net.Http",
+        "version": "4.3.1",
+        "hash": "sha256-S8mmFpkshoG1D6VgpqV6Ulmjr1lBY05IEvuk3rKFykY="
+    },
+    {
+        "pname": "GLibSharp",
+        "version": "3.24.24.95",
+        "hash": "sha256-1pDRkKoUI9fLJBcTA2DBlpVccJl2GyAdL+VKjsFbttA="
+    },
+    {
+        "pname": "runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-rp2iQsY5dl3jt9Qnw3NkexTqzKNBSxKPG6utsf4Kg0Q="
+    },
+    {
+        "pname": "GdkSharp",
+        "version": "3.24.24.95",
+        "hash": "sha256-NYjADgZG9TUQDIZiSSXDAxj5PyX/B7oKRo9f8Oyb4vI="
+    },
+    {
+        "pname": "System.Collections",
+        "version": "4.3.0",
+        "hash": "sha256-afY7VUtD6w/5mYqrce8kQrvDIfS2GXDINDh73IjxJKc="
+    },
+    {
+        "pname": "System.Diagnostics.Debug",
+        "version": "4.3.0",
+        "hash": "sha256-fkA79SjPbSeiEcrbbUsb70u9B7wqbsdM9s1LnoKj0gM="
+    },
+    {
+        "pname": "System.Diagnostics.DiagnosticSource",
+        "version": "9.0.7",
+        "hash": "sha256-vp2oxUmhI0UJBXdLTR6sX1ESmvZupErTUi/qzXKeLoU="
+    },
+    {
+        "pname": "System.Diagnostics.Tracing",
+        "version": "4.3.0",
+        "hash": "sha256-hCETZpHHGVhPYvb4C0fh4zs+8zv4GPoixagkLZjpa9Q="
+    },
+    {
+        "pname": "System.Globalization",
+        "version": "4.3.0",
+        "hash": "sha256-caL0pRmFSEsaoeZeWN5BTQtGrAtaQPwFi8YOZPZG5rI="
+    },
+    {
+        "pname": "System.Globalization.Extensions",
+        "version": "4.3.0",
+        "hash": "sha256-mmJWA27T0GRVuFP9/sj+4TrR4GJWrzNIk2PDrbr7RQk="
+    },
+    {
+        "pname": "System.IO",
+        "version": "4.3.0",
+        "hash": "sha256-ruynQHekFP5wPrDiVyhNiRIXeZ/I9NpjK5pU+HPDiRY="
+    },
+    {
+        "pname": "System.Net.Primitives",
+        "version": "4.3.1",
+        "hash": "sha256-qICFjQo5FcSfNSeb8XOMwA5aUgP+PO0idlO5HVpgusM="
+    },
+    {
+        "pname": "GioSharp",
+        "version": "3.24.24.95",
+        "hash": "sha256-5THx4af5PghPnQxXdnsC+wtVcoslh+0636WkB1FaPYg="
+    },
+    {
+        "pname": "System.Resources.ResourceManager",
+        "version": "4.3.0",
+        "hash": "sha256-idiOD93xbbrbwwSnD4mORA9RYi/D/U48eRUsn/WnWGo="
+    },
+    {
+        "pname": "PangoSharp",
+        "version": "3.24.24.95",
+        "hash": "sha256-YhltIz1jisJqR2ZxvbYy0ybi4oGw6qR2SkjF/2aWiBQ="
+    },
+    {
+        "pname": "System.IO.FileSystem",
+        "version": "4.3.0",
+        "hash": "sha256-vNIYnvlayuVj0WfRfYKpDrhDptlhp1pN8CYmlVd2TXw="
+    },
+    {
+        "pname": "System.Runtime",
+        "version": "4.3.1",
+        "hash": "sha256-R9T68AzS1PJJ7v6ARz9vo88pKL1dWqLOANg4pkQjkA0="
+    },
+    {
+        "pname": "System.Runtime.Extensions",
+        "version": "4.3.1",
+        "hash": "sha256-xll/AF6sF1soQ15prAPIVHSH69CiL4E9OHVDHyrm868="
+    },
+    {
+        "pname": "System.Runtime.Handles",
+        "version": "4.3.0",
+        "hash": "sha256-KJ5aXoGpB56Y6+iepBkdpx/AfaJDAitx4vrkLqR7gms="
+    },
+    {
+        "pname": "System.Runtime.InteropServices",
+        "version": "4.3.0",
+        "hash": "sha256-8sDH+WUJfCR+7e4nfpftj/+lstEiZixWUBueR2zmHgI="
+    },
+    {
+        "pname": "System.Security.Cryptography.Algorithms",
+        "version": "4.3.1",
+        "hash": "sha256-QlO/ppRk/OyDYHCimD867RAlKIOakidD0ICNOt63XNQ="
+    },
+    {
+        "pname": "System.Security.Cryptography.Encoding",
+        "version": "4.3.0",
+        "hash": "sha256-Yuge89N6M+NcblcvXMeyHZ6kZDfwBv3LPMDiF8HhJss="
+    },
+    {
+        "pname": "System.Security.Cryptography.OpenSsl",
+        "version": "5.0.0",
+        "hash": "sha256-yprw1SpkT25xpHsGHXO5RYfeZa/ea7CxEdRp4X7GUHE="
+    },
+    {
+        "pname": "System.Security.Cryptography.Primitives",
+        "version": "4.3.0",
+        "hash": "sha256-fnFi7B3SnVj5a+BbgXnbjnGNvWrCEU6Hp/wjsjWz318="
+    },
+    {
+        "pname": "System.Security.Cryptography.X509Certificates",
+        "version": "4.3.2",
+        "hash": "sha256-skaAtIqikbBv1586EocSiwg+QqBs9t5jKUAr/Qb9yi0="
+    },
+    {
+        "pname": "System.Text.Encoding",
+        "version": "4.3.0",
+        "hash": "sha256-GctHVGLZAa/rqkBNhsBGnsiWdKyv6VDubYpGkuOkBLg="
+    },
+    {
+        "pname": "runtime.native.System.IO.Compression",
+        "version": "4.3.2",
+        "hash": "sha256-RAfk6Gxydtw9wr+XiHAm9nTIyYwvz7aAuxkWQIZKMN4="
+    },
+    {
+        "pname": "System.Threading",
+        "version": "4.3.0",
+        "hash": "sha256-ZDQ3dR4pzVwmaqBg4hacZaVenQ/3yAF/uV7BXZXjiWc="
+    },
+    {
+        "pname": "System.Threading.Tasks",
+        "version": "4.3.0",
+        "hash": "sha256-Z5rXfJ1EXp3G32IKZGiZ6koMjRu0n8C1NGrwpdIen4w="
+    },
+    {
+        "pname": "System.Buffers",
+        "version": "4.6.1",
+        "hash": "sha256-sARR6R0Bb77Aka0eNh86cBXh2R1AR/fkinRFWypnPXk="
+    },
+    {
+        "pname": "Microsoft.NETCore.Targets",
+        "version": "5.0.0",
+        "hash": "sha256-5rFBJ8Fkw7+11iCG9nMVhOqPCpyVIrbUzrFQhc/2eHw="
+    },
+    {
+        "pname": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-Zu908yAE2vKu/eCWu/EtxeY0bpSu2jg+UPGGvQISq+k="
+    },
+    {
+        "pname": "System.Collections.Concurrent",
+        "version": "4.3.0",
+        "hash": "sha256-KMY5DfJnDeIsa13DpqvyN8NkReZEMAFnlmNglVoFIXI="
+    },
+    {
+        "pname": "System.Linq",
+        "version": "4.3.0",
+        "hash": "sha256-R5uiSL3l6a3XrXSSL6jz+q/PcyVQzEAByiuXZNSqD/A="
+    },
+    {
+        "pname": "System.Formats.Asn1",
+        "version": "9.0.7",
+        "hash": "sha256-EnIA2PO8o1eGmVHxdRW6GWbvvM/6ABk2Cjxk9pzmJIw="
+    },
+    {
+        "pname": "System.Globalization.Calendars",
+        "version": "4.3.0",
+        "hash": "sha256-uNOD0EOVFgnS2fMKvMiEtI9aOw00+Pfy/H+qucAQlPc="
+    },
+    {
+        "pname": "System.Security.Cryptography.Cng",
+        "version": "5.0.0",
+        "hash": "sha256-nOJP3vdmQaYA07TI373OvZX6uWshETipvi5KpL7oExo="
+    },
+    {
+        "pname": "System.Security.Cryptography.Csp",
+        "version": "4.3.0",
+        "hash": "sha256-oefdTU/Z2PWU9nlat8uiRDGq/PGZoSPRgkML11pmvPQ="
+    },
+    {
+        "pname": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-Xk521T6ppCknW+sjLZUGHWINwbed90F6ObYRH4GQ58s="
+    },
+    {
+        "pname": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-HRGXRnddE8O3AaZIpJtk4WMkveU6VRl1eGlZ13AKewo="
+    },
+    {
+        "pname": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-ZXtvlK1Stke22Pnc8XdnpPl90ev078lnpiuXwtQXpzA="
+    },
+    {
+        "pname": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-SeyZLMv9GFxvt9blmfTAuWcMNc+dL0xhMCm2wUsHVK0="
+    },
+    {
+        "pname": "runtime.ubuntu.18.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-zhG1bm8Qj1I4XuYg047p3eFI36QrBqVGRTb+gQoCRG8="
+    },
+    {
+        "pname": "System.IO.FileSystem.Primitives",
+        "version": "4.3.0",
+        "hash": "sha256-LMnfg8Vwavs9cMnq9nNH8IWtAtSfk0/Fy4s4Rt9r1kg="
+    },
+    {
+        "pname": "System.Reflection",
+        "version": "4.3.0",
+        "hash": "sha256-NQSZRpZLvtPWDlvmMIdGxcVuyUnw92ZURo0hXsEshXY="
+    },
+    {
+        "pname": "System.Reflection.Primitives",
+        "version": "4.3.0",
+        "hash": "sha256-5ogwWB4vlQTl3jjk1xjniG2ozbFIjZTL9ug0usZQuBM="
+    },
+    {
+        "pname": "runtime.native.System.Security.Cryptography.Apple",
+        "version": "4.3.1",
+        "hash": "sha256-Mt2QAjNH5nKnwpbyoUe2O+En97CP84EQFoS3CkmYXAM="
+    },
+    {
+        "pname": "System.Runtime.Numerics",
+        "version": "4.3.0",
+        "hash": "sha256-P5jHCgMbgFMYiONvzmaKFeOqcAIDPu/U8bOVrNPYKqc="
+    },
+    {
+        "pname": "runtime.debian.9-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-PcaO9QXsBKBGh5njpMvsPb56OshLsbqlb3M7QJY29Y4="
+    },
+    {
+        "pname": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-cmNlzevXubNf8vT43Xpa2utU1UQYKUM3fbayxhpnBek="
+    },
+    {
+        "pname": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-heEPCJqlnwfK+TLqdi0IB7CcOqPHQ+6jqKJLSfU0Gsc="
+    },
+    {
+        "pname": "runtime.fedora.27-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-jJhuPNmDpiWYQmaHJvwRdIt9h+uLSQc2q6q0dzhw8K4="
+    },
+    {
+        "pname": "runtime.fedora.28-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-Nr8c3+2urG0ePt7fFrkg/iWoICypipXeRz+Zws/ayaM="
+    },
+    {
+        "pname": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-UVFRdf1Am2bwb2Vgu5zY+px60ijYZ2wgKlPpxQpT8QM="
+    },
+    {
+        "pname": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-bTUoXnUQ0yUIO7PJoSSqPgqQe3VolkSrZeQtXb5OLjU="
+    },
+    {
+        "pname": "runtime.opensuse.42.3-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-VGL9nvYCMOHAgl6K6nGX+ljhRBci0Aef7bAZLSA0u+Q="
+    },
+    {
+        "pname": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+        "version": "4.3.3",
+        "hash": "sha256-740H2o1F3HP+A5hnhwt1CcmDBh+4CYi6ld2A/rFDbWM="
+    },
+    {
+        "pname": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple",
+        "version": "4.3.1",
+        "hash": "sha256-J5RHzSIfUs001NsY82+ZXn0ZIqux+aLvY7uDuXjRd8U="
+    },
+    {
+        "pname": "CairoSharp",
+        "version": "3.24.24.95",
+        "hash": "sha256-ycdgmQyQ1uSshI/9uMaqn5OBxRF8RADf4Tn/TptE2BU="
+    }
+]
