@@ -5,6 +5,7 @@
 
   dotnetCorePackages,
 
+  wrapGAppsHook,
   openssl,
   krb5,
   icu,
@@ -16,41 +17,45 @@ let
   version = "1.14.1";
   sha256 = "sha256-LvqUuSBrDbkmAJgL7fteUlCtQs27h8+8gqg1k2SgFWE=";
 in
-  buildDotnetModule rec {
-    pname = name;
-    inherit version;
-    src = fetchFromGitHub {
-      owner = "gw2scratch";
-      repo = "evtc";
-      tag = "manager-v${version}";
-      inherit sha256;
-    };
+buildDotnetModule rec {
+  pname = name;
+  inherit version;
+  src = fetchFromGitHub {
+    owner = "gw2scratch";
+    repo = "evtc";
+    tag = "manager-v${version}";
+    inherit sha256;
+  };
 
-    nugetDeps = ./deps.json;
+  nugetDeps = ./deps.json;
 
-    projectFile = "ArcdpsLogManager.Gtk/ArcdpsLogManager.Gtk.csproj";
+  projectFile = "ArcdpsLogManager.Gtk/ArcdpsLogManager.Gtk.csproj";
 
-    dotnet-sdk = dotnetCorePackages.sdk_8_0;
-    dotnet-runtime = dotnetCorePackages.runtime_8_0;
+  dotnet-sdk = dotnetCorePackages.sdk_8_0;
+  dotnet-runtime = dotnetCorePackages.runtime_8_0;
 
-    buildInputs = [
-      openssl
-      krb5
-      icu
-    ];
+  nativeBuildInputs = [
+    wrapGAppsHook
+  ];
 
-    runtimeDeps = [
-      gtk3
-      libnotify
-    ];
+  buildInputs = [
+    openssl
+    krb5
+    icu
+  ];
 
-    meta = with lib; {
-      description = "A manager for Guild Wars 2 log files.";
-      longDescription = ''
-        A manager for all your recorded logs. Filter logs, upload them with one click, find interesting statistics. 
-      '';
-      homepage = "https://gw2scratch.com/tools/manager";
+  runtimeDeps = [
+    gtk3
+    libnotify
+  ];
 
-      mainProgram = "GW2Scratch.ArcdpsLogManager.Gtk";
-    };
-  }
+  meta = with lib; {
+    description = "A manager for Guild Wars 2 log files.";
+    longDescription = ''
+      A manager for all your recorded logs. Filter logs, upload them with one click, find interesting statistics. 
+    '';
+    homepage = "https://gw2scratch.com/tools/manager";
+
+    mainProgram = "GW2Scratch.ArcdpsLogManager.Gtk";
+  };
+}
