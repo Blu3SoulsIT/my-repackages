@@ -16,7 +16,7 @@
 
       perSystem = { config, self', inputs', pkgs, system, ... }: {
         packages = {
-          arcdpsLogManager = (import ./pkgs/arcdpsLogManager/arcdpsLogManager.nix) { inherit pkgs; };
+          arcdpsLogManager = (pkgs.callPackage ./pkgs/arcdpsLogManager/arcdpsLogManager.nix { });
         };
       };
       flake = { };
