@@ -5,7 +5,7 @@
 
   dotnetCorePackages,
 
-  wrapGAppsHook,
+  wrapGAppsHook3,
   openssl,
   krb5,
   icu,
@@ -35,7 +35,7 @@ buildDotnetModule rec {
   dotnet-runtime = dotnetCorePackages.runtime_8_0;
 
   nativeBuildInputs = [
-    wrapGAppsHook
+    wrapGAppsHook3
   ];
 
   buildInputs = [
