@@ -14,8 +14,8 @@
 }: 
 let
   name = "arcdpsLogManager";
-  version = "1.14.1";
-  sha256 = "sha256-LvqUuSBrDbkmAJgL7fteUlCtQs27h8+8gqg1k2SgFWE=";
+  version = "1.15";
+  sha256 = "sha256-z7SuE+MPhN4/XW3CtYabbAd2ZjL2M/ii+VCdyUUukoA=";
 in
 buildDotnetModule rec {
   pname = name;
