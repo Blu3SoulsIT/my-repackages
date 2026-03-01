@@ -9,16 +9,27 @@
     };
   };
 
-  outputs = inputs@{ flake-parts, ... }:
+  outputs =
+    inputs@{ flake-parts, ... }:
     flake-parts.lib.mkFlake { inherit inputs; } {
-      imports = [];
+      imports = [ ];
       systems = [ "x86_64-linux" ];
 
-      perSystem = { config, self', inputs', pkgs, system, ... }: {
-        packages = {
-          arcdpsLogManager = (pkgs.callPackage ./pkgs/arcdpsLogManager/arcdpsLogManager.nix { });
+      perSystem =
+        {
+          config,
+          self',
+          inputs',
+          pkgs,
+          system,
+          ...
+        }:
+        {
+          packages = {
+            arcdpsLogManager = (pkgs.callPackage ./pkgs/arcdpsLogManager/arcdpsLogManager.nix { });
+            youtubeDownloader = (pkgs.callPackage ./pkgs/youtubeDownloader/youtubeDownloader.nix { });
+          };
         };
-      };
       flake = { };
     };
 }
