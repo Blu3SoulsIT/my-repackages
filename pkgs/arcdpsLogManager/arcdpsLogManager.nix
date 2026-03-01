@@ -11,11 +11,11 @@
   icu,
   gtk3,
   libnotify,
-}: 
+}:
 let
   name = "arcdpsLogManager";
   version = "1.15";
-  sha256 = "sha256-z7SuE+MPhN4/XW3CtYabbAd2ZjL2M/ii+VCdyUUukoA=";
+  hash = "sha256-z7SuE+MPhN4/XW3CtYabbAd2ZjL2M/ii+VCdyUUukoA=";
 in
 buildDotnetModule rec {
   pname = name;
@@ -24,7 +24,7 @@ buildDotnetModule rec {
     owner = "gw2scratch";
     repo = "evtc";
     tag = "manager-v${version}";
-    inherit sha256;
+    inherit hash;
   };
 
   nugetDeps = ./deps.json;
