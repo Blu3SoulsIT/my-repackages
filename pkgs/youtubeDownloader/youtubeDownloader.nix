@@ -2,6 +2,7 @@
   lib,
   buildDotnetModule,
   fetchFromGitHub,
+  copyDesktopItems,
   makeDesktopItem,
 
   dotnetCorePackages,
@@ -33,6 +34,10 @@ buildDotnetModule (finalAttrs: {
     "-p:Version=${finalAttrs.version}"
     "-p:Csharpier_Bypass=true"
     "-p:DownloadFFmpeg=false"
+  ];
+
+  nativeBuildInputs = [
+    copyDesktopItems
   ];
 
   buildInputs = [
