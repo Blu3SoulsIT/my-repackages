@@ -48,8 +48,6 @@ buildDotnetModule (finalAttrs: {
 
   makeWrapperArgs = [
     "--run"
-    "mkdir -p \${XDG_CONFIG_HOME:-$HOME/.config}/YoutubeDownloader"
-    "--run"
     "export YOUTUBEDOWNLOADER_SETTINGS_PATH=\${XDG_CONFIG_HOME:-$HOME/.config}/YoutubeDownloader/Settings.dat"
   ];
 
