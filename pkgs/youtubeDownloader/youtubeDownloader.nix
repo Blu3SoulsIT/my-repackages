@@ -10,11 +10,11 @@
 }:
 buildDotnetModule (finalAttrs: {
   pname = "youtubeDownloader";
-  version = "1.16.1";
+  version = "1.16.2";
   src = fetchFromGitHub {
     owner = "Tyrrrz";
     repo = "YoutubeDownloader";
-    rev = "6b7c635b0221cd256629319d1eaec408e38afbe5"; # finalAttrs.version;
+    rev = finalAttrs.version;
     hash = "sha256-P34akbynbP0Aecg+tjt2XsN/PL3leXZ27YcL8/LZ83U=";
   };
 
