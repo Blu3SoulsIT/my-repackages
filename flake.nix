@@ -26,7 +26,6 @@
         }:
         {
           packages = {
-            arcdpsLogManager = (pkgs.callPackage ./pkgs/arcdpsLogManager/arcdpsLogManager.nix { });
             youtubeDownloader = (pkgs.callPackage ./pkgs/youtubeDownloader/youtubeDownloader.nix { });
           };
         };
