@@ -1,5 +1,4 @@
 {
-  lib,
   buildDotnetModule,
   fetchFromGitHub,
   copyDesktopItems,
@@ -11,12 +10,12 @@
 }:
 buildDotnetModule (finalAttrs: {
   pname = "youtubeDownloader";
-  version = "1.16";
+  version = "1.16.1";
   src = fetchFromGitHub {
     owner = "Tyrrrz";
     repo = "YoutubeDownloader";
-    tag = finalAttrs.version;
-    hash = "sha256-JbByraY/0OJFywCDyZW5v6f2YoW8ohcPt2ADrVk5sq0=";
+    rev = "6b7c635b0221cd256629319d1eaec408e38afbe5"; # finalAttrs.version;
+    hash = "sha256-P34akbynbP0Aecg+tjt2XsN/PL3leXZ27YcL8/LZ83U=";
   };
 
   dotnet-sdk = dotnetCorePackages.sdk_10_0;
@@ -24,11 +23,6 @@ buildDotnetModule (finalAttrs: {
 
   projectFile = "YoutubeDownloader/YoutubeDownloader.csproj";
   nugetDeps = ./deps.json;
-
-  postPatch = ''
-    substituteInPlace YoutubeDownloader/Services/SettingsService.cs \
-      --replace-fail 'Path.Combine(AppContext.BaseDirectory, "Settings.dat")' 'Environment.GetEnvironmentVariable("YOUTUBEDOWNLOADER_SETTINGS_PATH") ?? "/tmp/YoutubeDownloader/Settings.dat"'
-  '';
 
   dotnetFlags = [
     "-p:Version=${finalAttrs.version}"
@@ -66,7 +60,7 @@ buildDotnetModule (finalAttrs: {
     })
   ];
 
-  meta = with lib; {
+  meta = {
     description = "Youtube Downloader by Tyrrrz.";
     longDescription = ''
       Youtube Downloader by Tyrrrz. 
