@@ -7,7 +7,7 @@
 }:
 stdenvNoCC.mkDerivation (finalAttrs: {
   pname = "star-strings";
-  version = "latest-unstable-2026-04-26";
+  version = "0-unstable-2026-04-26";
 
   src = fetchFromGitHub {
     owner = "MrKraken";
