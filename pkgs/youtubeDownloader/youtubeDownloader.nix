@@ -7,15 +7,18 @@
   dotnetCorePackages,
 
   ffmpeg,
+
+  writeShellApplication,
+  nix-update,
 }:
 buildDotnetModule (finalAttrs: {
   pname = "youtubeDownloader";
-  version = "1.16.3";
+  version = "1.16.4";
   src = fetchFromGitHub {
     owner = "Tyrrrz";
     repo = "YoutubeDownloader";
-    rev = finalAttrs.version;
-    hash = "sha256-fEj3Ix+0/3Py+fVIl5r+aXhPaIfJj4YXuGzZTTVxy/A=";
+    tag = finalAttrs.version;
+    hash = "sha256-ILVOOcR+SFPGX5dOEcM8fYlpBnQCDC9E6GWUGw89Bhs=";
   };
 
   dotnet-sdk = dotnetCorePackages.sdk_10_0;
@@ -49,6 +52,14 @@ buildDotnetModule (finalAttrs: {
     mkdir -p $out/share/icons/hicolor/256x256/apps
     cp $src/favicon.png $out/share/icons/hicolor/256x256/apps/tyrrrz-youtube-downloader.png
   '';
+
+  passthru.updateScript = writeShellApplication {
+    name = "update-${finalAttrs.pname}";
+    runtimeInputs = [ nix-update ];
+    text = ''
+      nix-update ${finalAttrs.pname} --flake
+    '';
+  };
 
   desktopItems = [
     (makeDesktopItem {

@@ -16,73 +16,73 @@
   },
   {
     "pname": "Avalonia",
-    "version": "11.3.0",
-    "hash": "sha256-Hot4dWkrP5x+JzaP2/7E1QOOiXfPGhkvK1nzBacHvzg="
+    "version": "11.3.14",
+    "hash": "sha256-HOC9J/SzIMQnVSWepH2CroVZl+mNLmluwKiF5Lb2c8c="
   },
   {
     "pname": "Avalonia.Angle.Windows.Natives",
-    "version": "2.1.22045.20230930",
-    "hash": "sha256-RxPcWUT3b/+R3Tu5E5ftpr5ppCLZrhm+OTsi0SwW3pc="
+    "version": "2.1.25547.20250602",
+    "hash": "sha256-LE/lENAHptmz6t3T/AoJwnhpda+xs7PqriNGzdcfg8M="
   },
   {
     "pname": "Avalonia.BuildServices",
-    "version": "0.0.31",
-    "hash": "sha256-wgtodGf644CsUZEBIpFKcUjYHTbnu7mZmlr8uHIxeKA="
+    "version": "11.3.2",
+    "hash": "sha256-6wx06tjSKWQOlX2czdp6Wh0nuwVapx5qf/s8Qj5we40="
   },
   {
     "pname": "Avalonia.Controls.ColorPicker",
-    "version": "11.3.0",
-    "hash": "sha256-ee3iLrn8OdWH6Mg01p93wYMMCPXS25VM/uZeQWEr+k0="
+    "version": "11.3.14",
+    "hash": "sha256-ndk+/+wC9VmrjlqAXOeWACu/G/GOqS6D8mGTaKKVbes="
   },
   {
     "pname": "Avalonia.Controls.DataGrid",
-    "version": "11.3.0",
-    "hash": "sha256-McFggedX7zb9b0FytFeuh+3nPdFqoKm2JMl2VZDs/BQ="
+    "version": "11.3.13",
+    "hash": "sha256-uqpRip0O+DUk/zsytLdJhZz103har19xPqMq0hI/Ppg="
   },
   {
     "pname": "Avalonia.Desktop",
-    "version": "11.3.0",
-    "hash": "sha256-XZXmsKrYCOEWzFUbnwNKvEz5OCD/1lAPi+wM4BiMB7I="
+    "version": "11.3.14",
+    "hash": "sha256-Y9f17/CMhHr5t93qQW+NbBXSt5U4y8NuUo/7HhWr/3U="
   },
   {
     "pname": "Avalonia.Diagnostics",
-    "version": "11.3.0",
-    "hash": "sha256-jO8Fs9kfNGsoZ87zQCxPdn0tyWHcEdgBRIpzkZ0ceM0="
+    "version": "11.3.14",
+    "hash": "sha256-e2djpATUmFtAMEtjaM1E2Bjg80iWUNHrI75EZqm5i/A="
   },
   {
     "pname": "Avalonia.FreeDesktop",
-    "version": "11.3.0",
-    "hash": "sha256-nWIW3aDPI/00/k52BNU4n43sS3ymuw+e97EBSsjjtU4="
+    "version": "11.3.14",
+    "hash": "sha256-VCzQb1GjMhM2WlqYdlRMlZcY34XQWgHwpcq8BpUghlI="
   },
   {
     "pname": "Avalonia.Native",
-    "version": "11.3.0",
-    "hash": "sha256-l6gcCeGd422mLQgVLp2sxh4/+vZxOPoMrxyfjGyhYLs="
+    "version": "11.3.14",
+    "hash": "sha256-DVB/68Vnkvhj2TvFV6oPcZ7+vrvX55CxrnFBxuvELog="
   },
   {
     "pname": "Avalonia.Remote.Protocol",
-    "version": "11.3.0",
-    "hash": "sha256-7ytabxzTbPLR3vBCCb7Z6dYRZZVvqiDpvxweOYAqi7I="
+    "version": "11.3.14",
+    "hash": "sha256-iaQE1lCVpTGFe33UhPpbONGwtWBJ3bCzr46MqRJBrI8="
   },
   {
     "pname": "Avalonia.Skia",
-    "version": "11.3.0",
-    "hash": "sha256-p+mWsyrYsC9PPhNjOxPZwarGuwmIjxaQ4Ml/2XiEuEc="
+    "version": "11.3.14",
+    "hash": "sha256-L9oxOx8sxyYeEgHwfHpgRMBYIBSsFNSMe+Go6L7NUow="
   },
   {
     "pname": "Avalonia.Themes.Simple",
-    "version": "11.3.0",
-    "hash": "sha256-F2DMHskmrJw/KqpYLHGEEuQMVP8T4fXgq5q3tfwFqG0="
+    "version": "11.3.14",
+    "hash": "sha256-20PkEOaIzUsvOgqu5Rlx7ZTqi/BsgG77vemBDM+8elc="
   },
   {
     "pname": "Avalonia.Win32",
-    "version": "11.3.0",
-    "hash": "sha256-Ltf6EuL6aIG+YSqOqD/ecdqUDsuwhNuh+XilIn7pmlE="
+    "version": "11.3.14",
+    "hash": "sha256-0E+Jax/+VNIHY0FLiydXdkkRiQiGxWnzy1ZpRMvPU2g="
   },
   {
     "pname": "Avalonia.X11",
-    "version": "11.3.0",
-    "hash": "sha256-QOprHb0HjsggEMWOW7/U8pqlD8M4m97FeTMWlriYHaU="
+    "version": "11.3.14",
+    "hash": "sha256-ZDNqbc2Rq1Sf7PvTPM+pDog7Lv4vcz2013EOe57w5FA="
   },
   {
     "pname": "CairoSharp",
@@ -91,8 +91,8 @@
   },
   {
     "pname": "CliWrap",
-    "version": "3.10.0",
-    "hash": "sha256-XMGTr0gkZxSOC72hrCjpIChpN0c0A19X3TqOAdBtgb4="
+    "version": "3.10.1",
+    "hash": "sha256-uH4SXiMkUIPw5RRyKtDTTCSkkr3BhBAPrxnC4O4ES4c="
   },
   {
     "pname": "Cogwheel",
@@ -136,8 +136,8 @@
   },
   {
     "pname": "Gress",
-    "version": "2.1.1",
-    "hash": "sha256-k5EbB4xOWoTCurtIuIx7t3obpWQKQCb7gEZQD6kLf+s="
+    "version": "2.2.0",
+    "hash": "sha256-2vzffEFC2NHH5KGXssvlR4rH+e1DrsFMHN+zQcOgyGI="
   },
   {
     "pname": "GtkSharp",
@@ -146,28 +146,28 @@
   },
   {
     "pname": "HarfBuzzSharp",
-    "version": "7.3.0.3",
-    "hash": "sha256-1vDIcG1aVwVABOfzV09eAAbZLFJqibip9LaIx5k+JxM="
+    "version": "8.3.1.1",
+    "hash": "sha256-614yv6bK9ynhdUnvW4wIkgpBe2sqTh28U9cDZzdhPc0="
   },
   {
     "pname": "HarfBuzzSharp.NativeAssets.Linux",
-    "version": "7.3.0.3",
-    "hash": "sha256-HW5r16wdlgDMbE/IfE5AQGDVFJ6TS6oipldfMztx+LM="
+    "version": "8.3.1.1",
+    "hash": "sha256-sBbez6fc9axVcsBbIHbpQh/MM5NHlMJgSu6FyuZzVyU="
   },
   {
     "pname": "HarfBuzzSharp.NativeAssets.macOS",
-    "version": "7.3.0.3",
-    "hash": "sha256-UpAVfRIYY8Wh8xD4wFjrXHiJcvlBLuc2Xdm15RwQ76w="
+    "version": "8.3.1.1",
+    "hash": "sha256-hK20KbX2OpewIO5qG5gWw5Ih6GoLcIDgFOqCJIjXR/Q="
   },
   {
     "pname": "HarfBuzzSharp.NativeAssets.WebAssembly",
-    "version": "7.3.0.3",
-    "hash": "sha256-jHrU70rOADAcsVfVfozU33t/5B5Tk0CurRTf4fVQe3I="
+    "version": "8.3.1.1",
+    "hash": "sha256-mLKoLqI47ZHXqTMLwP1UCm7faDptUfQukNvdq6w/xxw="
   },
   {
     "pname": "HarfBuzzSharp.NativeAssets.Win32",
-    "version": "7.3.0.3",
-    "hash": "sha256-v/PeEfleJcx9tsEQAo5+7Q0XPNgBqiSLNnB2nnAGp+I="
+    "version": "8.3.1.1",
+    "hash": "sha256-Um4iwLdz9XtaDSAsthNZdev6dMiy7OBoHOrorMrMYyo="
   },
   {
     "pname": "JsonExtensions",
@@ -250,6 +250,11 @@
     "hash": "sha256-YhltIz1jisJqR2ZxvbYy0ybi4oGw6qR2SkjF/2aWiBQ="
   },
   {
+    "pname": "PowerKit",
+    "version": "1.1.1",
+    "hash": "sha256-H/YcD1N3fuma13QL9gHCI6Adpp0Ri5jTTAZwHaAWQYI="
+  },
+  {
     "pname": "SkiaSharp",
     "version": "2.88.9",
     "hash": "sha256-jZ/4nVXYJtrz9SBf6sYc/s0FxS7ReIYM4kMkrhZS+24="
@@ -291,8 +296,8 @@
   },
   {
     "pname": "Tmds.DBus.Protocol",
-    "version": "0.21.2",
-    "hash": "sha256-gaK/5aAummyin6ptnhaJbnA0ih4+2xADrtrLfFbHwYI="
+    "version": "0.21.3",
+    "hash": "sha256-HVEIHSeSe29ergHxsNvWYu3o7Ai8VZKo09yFn+miTnI="
   },
   {
     "pname": "WebkitGtkSharp",
@@ -326,12 +331,12 @@
   },
   {
     "pname": "YoutubeExplode",
-    "version": "6.5.7",
-    "hash": "sha256-i8E/yeZbsMXsghdXQAnU6rg7efpQEw9yGku1vUCuoWY="
+    "version": "6.6.0",
+    "hash": "sha256-53mPbr8IVmJH2C3euhSz56Bl6fJt5yN0CU6vCmzUs4I="
   },
   {
     "pname": "YoutubeExplode.Converter",
-    "version": "6.5.7",
-    "hash": "sha256-4Y4OzzJdXtW2lAZb3RfawFFq6wjxskFLEr8R5zXmORw="
+    "version": "6.6.0",
+    "hash": "sha256-BQLjaM9V3Db6qlQMHVShyJttYdUeGqh5JZC4T7afDmo="
   }
 ]
