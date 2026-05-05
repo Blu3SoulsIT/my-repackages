@@ -1,0 +1,44 @@
+name: Nightly Flake Packages Update
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-packages:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v25
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git Bot
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run update-all
+        run: nix run .#update-all
+
+      - name: Commit and Push changes
+        run: |
+          if git diff --quiet; then
+            echo "No updates found for any packages."
+          else
+            echo "Updates found! Committing changes..."
+            git commit -am "chore(deps): auto-update flake packages"
+            git push origin HEAD:main
+          fi
