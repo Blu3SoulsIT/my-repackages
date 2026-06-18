@@ -14,7 +14,7 @@ in
 
     package = lib.mkOption {
       type = lib.types.package;
-      default = self.packages.${pkgs.system}.star-strings;
+      default = self.packages.${pkgs.stdenv.hostPlatform.system}.star-strings;
       description = "The StarStrings package to use.";
     };
 
