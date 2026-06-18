@@ -7,13 +7,13 @@
 }:
 stdenvNoCC.mkDerivation (finalAttrs: {
   pname = "star-strings";
-  version = "0-unstable-2026-06-07";
+  version = "0-unstable-2026-06-17";
 
   src = fetchFromGitHub {
     owner = "MrKraken";
     repo = "StarStrings";
-    rev = "bc3fdadd9bd557b395973f2c18891f476cd50415";
-    hash = "sha256-ogYYoM8XG3OZ/KmATgucL5xOGNPn0p88XzYYYjd94is=";
+    rev = "7caecaf10a013d8cd45c1c7fc4ddde78e3fc0490";
+    hash = "sha256-AaMJO96/4UlK56v8hktrW+veJZQe+CvKhGCUyolbJrg=";
   };
 
   installPhase = ''
