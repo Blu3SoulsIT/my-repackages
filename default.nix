@@ -6,4 +6,5 @@ in
 {
   youtubeDownloader = pkgs.callPackage ./pkgs/youtubeDownloader/youtubeDownloader.nix { };
   star-strings = pkgs.callPackage ./pkgs/star-strings/star-strings.nix { };
+  gwtoolbox = pkgs.callPackage ./pkgs/gwtoolbox/gwtoolbox.nix { };
 }

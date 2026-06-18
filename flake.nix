@@ -29,6 +29,7 @@
           packages = {
             youtubeDownloader = (pkgs.callPackage ./pkgs/youtubeDownloader/youtubeDownloader.nix { });
             star-strings = (pkgs.callPackage ./pkgs/star-strings/star-strings.nix { });
+            gwtoolbox = (pkgs.callPackage ./pkgs/gwtoolbox/gwtoolbox.nix { });
           };
 
           apps.update-all = {
@@ -50,6 +51,7 @@
 
       flake = {
         homeManagerModules.star-strings = import ./modules/star-strings.nix { inherit self; };
+        homeManagerModules.gwtoolbox = import ./modules/gwtoolbox.nix { inherit self; };
       };
     };
 }
