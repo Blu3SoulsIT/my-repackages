@@ -12,8 +12,8 @@ stdenvNoCC.mkDerivation (finalAttrs: {
   src = fetchFromGitHub {
     owner = "MrKraken";
     repo = "StarStrings";
-    rev = "c90040753180a90848acb1ab8371c37b4d2d33e0";
-    hash = "sha256-cgM2AHtMvoH9i6EhEm4X6XBGC+3XWPGfhJNnpJVf8ao=";
+    rev = "caa6097bdbbcf2c708e53f0c36a2a7db59f70445";
+    hash = "sha256-l3WpND9b+LPbwGbKXlWzgkvQ5rP5IrCp39PQq0Z80pE=";
   };
 
   installPhase = ''
