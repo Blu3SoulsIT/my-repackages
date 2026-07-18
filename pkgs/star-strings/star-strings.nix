@@ -20,7 +20,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
     runHook preInstall
 
     mkdir -p $out
-    cp Data/Localization/english/global.ini $out/global.ini
+    cp src/For_Players/Data/Localization/english/global.ini $out/global.ini
 
     runHook postInstall
   '';
