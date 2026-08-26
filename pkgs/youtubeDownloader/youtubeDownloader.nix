@@ -13,12 +13,12 @@
 }:
 buildDotnetModule (finalAttrs: {
   pname = "youtubeDownloader";
-  version = "1.16.4";
+  version = "1.16.5";
   src = fetchFromGitHub {
     owner = "Tyrrrz";
     repo = "YoutubeDownloader";
     tag = finalAttrs.version;
-    hash = "sha256-ILVOOcR+SFPGX5dOEcM8fYlpBnQCDC9E6GWUGw89Bhs=";
+    hash = "sha256-HCNQX5r1i8Hl2AHjt3/X/BpQospDZbFv+28Gyic+OrU=";
   };
 
   dotnet-sdk = dotnetCorePackages.sdk_10_0;
