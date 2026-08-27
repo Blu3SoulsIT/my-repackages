@@ -25,7 +25,7 @@ in
     };
 
     environments = lib.mkOption {
-      type = lib.types.listof lib.types.str;
+      type = lib.types.listOf lib.types.str;
       description = "Name of the environments to install the language file into.";
       default = [
         "LIVE"
@@ -34,11 +34,12 @@ in
   };
 
   config = lib.mkIf cfg.enable {
-    home.file =
+    home.file = (
       lib.genAttrs
-        (lib.map cfg.environments (e: "${cfg.pathInHome}/${e}/Data/Localization/english/global.ini"))
+        (lib.map (e: "${cfg.pathInHome}/${e}/Data/Localization/english/global.ini") cfg.environments)
         (name: {
           source = "${cfg.package}/global.ini";
-        });
+        })
+    );
   };
 }
