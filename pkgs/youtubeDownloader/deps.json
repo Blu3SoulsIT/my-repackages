@@ -16,8 +16,8 @@
   },
   {
     "pname": "Avalonia.Angle.Windows.Natives",
-    "version": "2.1.25547.20250602",
-    "hash": "sha256-LE/lENAHptmz6t3T/AoJwnhpda+xs7PqriNGzdcfg8M="
+    "version": "2.1.27548.20260419",
+    "hash": "sha256-dtZ5AQl+kXPRVe/EwrfSyOMSLywuBBUCjrDIhHijhvk="
   },
   {
     "pname": "Avalonia.BuildServices",
@@ -26,33 +26,33 @@
   },
   {
     "pname": "Avalonia.Controls.DataGrid",
-    "version": "12.0.0",
-    "hash": "sha256-PODgcJLMZaHtlzh2Wes8od5UT/PVzbT8s5ymxfM4aXI="
+    "version": "12.1.1",
+    "hash": "sha256-yVGXoSlnizHkHo7v6VZ9hPBKAkShQdxK8obfeQWQO1s="
   },
   {
     "pname": "Avalonia.Desktop",
-    "version": "12.0.2",
-    "hash": "sha256-ydFDRX0zTEtJJzjn+TTpcSYL49xBJ3vFi9v3NSOyPww="
+    "version": "12.1.1",
+    "hash": "sha256-b7yunwfT7+hBPzW3hh+PX6s8sYpVfIpum7QxPiUNQAA="
   },
   {
     "pname": "Avalonia.FreeDesktop",
-    "version": "12.0.2",
-    "hash": "sha256-raEQGX8Vwr+c7W5SzkEZ/phEEs/a5N0xeUfAWKEpl6A="
+    "version": "12.1.1",
+    "hash": "sha256-w61F1fA/RZdT25xtJWRes2SEYS1ixc797cUOfRu4tmM="
   },
   {
     "pname": "Avalonia.FreeDesktop.AtSpi",
-    "version": "12.0.2",
-    "hash": "sha256-5AQPlWW6g7G6pm7qI8RHR/MQ45VGd7iAFWseXUitIVI="
+    "version": "12.1.1",
+    "hash": "sha256-c+B2eV5v/gZgBZqj4Z1QeJbHgyPJEenyFCutiQBUwRU="
   },
   {
     "pname": "Avalonia.HarfBuzz",
-    "version": "12.0.2",
-    "hash": "sha256-FUYKVfweWiFix+LJZt9scI7HYiIl3C+8j9K0/yKsOIE="
+    "version": "12.1.1",
+    "hash": "sha256-7lChqcimsELWLlx3J1VhHJq3V0AoZ5iSHstZrT7ItBA="
   },
   {
     "pname": "Avalonia.Native",
-    "version": "12.0.2",
-    "hash": "sha256-E1uQvsvnVBIyzAyV3803LXMpitPvaoJezCedz6ZeV1A="
+    "version": "12.1.1",
+    "hash": "sha256-1VfWF3vFifgBiuM1LV6v6s6Dbh0uUQ+CHL3PxmtWlVI="
   },
   {
     "pname": "Avalonia.Remote.Protocol",
@@ -61,18 +61,18 @@
   },
   {
     "pname": "Avalonia.Skia",
-    "version": "12.0.2",
-    "hash": "sha256-ZzNoO/8/SYG4xN0RmPz9AC6N1RtPTnSaTVrQ0+NNvGU="
+    "version": "12.1.1",
+    "hash": "sha256-9oPb5fXc395iy4vuDMdeO5vsldn5JHlso2J72ov6TyU="
   },
   {
     "pname": "Avalonia.Win32",
-    "version": "12.0.2",
-    "hash": "sha256-yHcePPF2tKc9oussntmAr/4LX3FEkGRRFuzdmlE+NHQ="
+    "version": "12.1.1",
+    "hash": "sha256-4jzrk/5p3/WF6/ZyaI07TL4O4HM8NnjaHk71H7H6GUw="
   },
   {
     "pname": "Avalonia.X11",
-    "version": "12.0.2",
-    "hash": "sha256-not3Qv87nbN6Bi8sE49WKDSNzUTISBdcNR3rcFqgwHE="
+    "version": "12.1.1",
+    "hash": "sha256-/D2+LG3fiOeKprFV82EMzNoKfxSXfh3pDvb+MzNl4Kg="
   },
   {
     "pname": "CairoSharp",
@@ -246,28 +246,28 @@
   },
   {
     "pname": "SkiaSharp",
-    "version": "3.119.4-preview.1.1",
-    "hash": "sha256-yUHsoau6WVQkzYV5UVnKcgpABiapa9aoTDd1pw/J5r8="
+    "version": "3.119.4",
+    "hash": "sha256-4ypEnTGUXAudFp61vGduHj9YmqtpiI5J1wP9wcOEwXY="
   },
   {
     "pname": "SkiaSharp.NativeAssets.Linux",
-    "version": "3.119.4-preview.1.1",
-    "hash": "sha256-jcf0FhUgOzxpJ4ENn1q5uPe8dT+kXl0/yUWJs+hDYNA="
+    "version": "3.119.4",
+    "hash": "sha256-+uBVQFmxEH73iI5GwgvftUhAHvenpvc5GtT63HQy1Qo="
   },
   {
     "pname": "SkiaSharp.NativeAssets.macOS",
-    "version": "3.119.4-preview.1.1",
-    "hash": "sha256-olbqFOHmkiCdlnXHU4l1lTb04yAPn21CvLNMP4AGncs="
+    "version": "3.119.4",
+    "hash": "sha256-9/L1Oc5bujN6pKjW6sJcr1jL3RLt8/Mt3MmClOcwzyw="
   },
   {
     "pname": "SkiaSharp.NativeAssets.WebAssembly",
-    "version": "3.119.4-preview.1.1",
-    "hash": "sha256-R+67ADA6luDa9b7xvsE4PSL6GWwQTaNYzw2WYou/ofQ="
+    "version": "3.119.4",
+    "hash": "sha256-xLfsWBsFFpv5Qg79GIMi+5CM6YDfcg//oywNlB5Y3J0="
   },
   {
     "pname": "SkiaSharp.NativeAssets.Win32",
-    "version": "3.119.4-preview.1.1",
-    "hash": "sha256-Sd+KnMezIKbc4OLklHsfeM7EVZERtmawWuSCoaySteM="
+    "version": "3.119.4",
+    "hash": "sha256-WlaYsbTh/cn/6YaN9odNtfpp8hpN52unGgGlQum0M5E="
   },
   {
     "pname": "TagLibSharp",
@@ -286,8 +286,8 @@
   },
   {
     "pname": "Tmds.DBus.Protocol",
-    "version": "0.92.0",
-    "hash": "sha256-WZSB9eqSOIzsBfnpOJDIIopIhNxAH+UcZuD6W94PIN4="
+    "version": "0.94.1",
+    "hash": "sha256-T3HQasQOcl/7zxt5hT3ZMhhpWoTyPTb6/IX0d6TJWA8="
   },
   {
     "pname": "WebkitGtkSharp",
