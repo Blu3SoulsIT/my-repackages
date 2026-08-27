@@ -21,13 +21,24 @@ in
     pathInHome = lib.mkOption {
       type = lib.types.str;
       description = "Path to your LIVE/PTU directory in your home directory.";
-      default = "Games/rsi-launcher/drive_c/Program Files/Roberts Space Industries/StarCitizen/LIVE";
+      default = "Games/rsi-launcher/drive_c/Program Files/Roberts Space Industries/StarCitizen";
+    };
+
+    environments = lib.mkOption {
+      type = lib.types.listof lib.types.str;
+      description = "Name of the environments to install the language file into.";
+      default = [
+        "LIVE"
+      ];
     };
   };
 
   config = lib.mkIf cfg.enable {
-    home.file."${cfg.pathInHome}/Data/Localization/english/global.ini" = {
-      source = "${cfg.package}/global.ini";
-    };
+    home.file =
+      lib.genAttrs
+        (lib.map cfg.environments (e: "${cfg.pathInHome}/${e}/Data/Localization/english/global.ini"))
+        (name: {
+          source = "${cfg.package}/global.ini";
+        });
   };
 }
