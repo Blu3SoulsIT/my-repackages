@@ -9,11 +9,11 @@
 }:
 stdenvNoCC.mkDerivation (finalAttrs: {
   pname = "gwtoolbox";
-  version = "8.32_Release";
+  version = "8.33_Release";
 
   src = fetchurl {
     url = "https://github.com/gwdevhub/GWToolboxpp/releases/download/${finalAttrs.version}/GWToolbox.exe";
-    hash = "sha256-eN8LiWbDPwxAnOQ+X8cZa4d7FON+fkhAOVWph5Kh9ps=";
+    hash = "sha256-QRmAntLQcaamt+Bdc8Zu2eJsKIkE3ET3x0H5BQ7+j1k=";
   };
 
   dontUnpack = true;
