@@ -10,12 +10,12 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "nuclear";
-  version = "1.48.5";
+  version = "1.48.6";
 
   # nix-update can now easily find and update this!
   src = fetchurl {
     url = "https://github.com/nukeop/nuclear/releases/download/player@${finalAttrs.version}/nuclear_${finalAttrs.version}_amd64.deb";
-    hash = "sha256-0EjePIarEeMzspii4ByqAqcFrnsO8veoG8C5LzKJhAg=";
+    hash = "sha256-ardUrSlxTE3kO9WwDVsJWAaFmwmvo7cCGyN1+sa6v8M=";
   };
 
   dontUnpack = true;
