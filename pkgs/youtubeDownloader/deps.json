@@ -1,13 +1,13 @@
 [
   {
     "pname": "AsyncImageLoader.Avalonia",
-    "version": "3.8.0",
-    "hash": "sha256-sfIxMXp9DA502O8XrYIuUe/H6UE7ma25cs6C/73XvT8="
+    "version": "4.0.0",
+    "hash": "sha256-bhj9pOTTS7+lqhJrPSYnF5/4eJOSCflsJjyPbZHZeaE="
   },
   {
     "pname": "Avalonia",
-    "version": "12.1.1",
-    "hash": "sha256-GTv2rouQKTrLcryoodYujka0YKSFJ/Xx8Y9ikHPZ130="
+    "version": "12.1.3",
+    "hash": "sha256-3/tmBbAuFEhmyyN2XrWvclU3nrt+3nXPEQZvMkjYNzQ="
   },
   {
     "pname": "Avalonia.Angle.Windows.Natives",
@@ -31,48 +31,48 @@
   },
   {
     "pname": "Avalonia.Desktop",
-    "version": "12.1.1",
-    "hash": "sha256-b7yunwfT7+hBPzW3hh+PX6s8sYpVfIpum7QxPiUNQAA="
+    "version": "12.1.3",
+    "hash": "sha256-y3ZqNYglcHlE0Z8iC9DKkiySEZ3a1wG42M2aJXjMnDs="
   },
   {
     "pname": "Avalonia.FreeDesktop",
-    "version": "12.1.1",
-    "hash": "sha256-w61F1fA/RZdT25xtJWRes2SEYS1ixc797cUOfRu4tmM="
+    "version": "12.1.3",
+    "hash": "sha256-KUgO49V84mV4sgmKNNFPevnbjmyCndIrpSfmLTh8FHU="
   },
   {
     "pname": "Avalonia.FreeDesktop.AtSpi",
-    "version": "12.1.1",
-    "hash": "sha256-c+B2eV5v/gZgBZqj4Z1QeJbHgyPJEenyFCutiQBUwRU="
+    "version": "12.1.3",
+    "hash": "sha256-AZSQga8H29EFuPgJKcEFYcolLv87p04d8m0LCvboXcw="
   },
   {
     "pname": "Avalonia.HarfBuzz",
-    "version": "12.1.1",
-    "hash": "sha256-7lChqcimsELWLlx3J1VhHJq3V0AoZ5iSHstZrT7ItBA="
+    "version": "12.1.3",
+    "hash": "sha256-a8iP29LyZLjHsy4cjHcVMpCYlfE4P6qDJZQPDRqqtzQ="
   },
   {
     "pname": "Avalonia.Native",
-    "version": "12.1.1",
-    "hash": "sha256-1VfWF3vFifgBiuM1LV6v6s6Dbh0uUQ+CHL3PxmtWlVI="
+    "version": "12.1.3",
+    "hash": "sha256-Zh+hlPbeeFZHoZ7KaTSVhJb60tDypN2i55H1Zc0siO4="
   },
   {
     "pname": "Avalonia.Remote.Protocol",
-    "version": "12.1.1",
-    "hash": "sha256-Ewx9x7XsVrmv3Z2TkqVzTASxloSijLftrkYB9YK5MBE="
+    "version": "12.1.3",
+    "hash": "sha256-+JL6fQxCz44Bc5jGoeM1DlMqRt+TsCw4T7oL4/auFpY="
   },
   {
     "pname": "Avalonia.Skia",
-    "version": "12.1.1",
-    "hash": "sha256-9oPb5fXc395iy4vuDMdeO5vsldn5JHlso2J72ov6TyU="
+    "version": "12.1.3",
+    "hash": "sha256-4pykG9/rHJQTYWA+LGna9H6pBoFBajEp/QVVlWeIHio="
   },
   {
     "pname": "Avalonia.Win32",
-    "version": "12.1.1",
-    "hash": "sha256-4jzrk/5p3/WF6/ZyaI07TL4O4HM8NnjaHk71H7H6GUw="
+    "version": "12.1.3",
+    "hash": "sha256-2I8/64NBvcOiwmIqj66rhdOpSTSgL4JZLmMb5qqUtyk="
   },
   {
     "pname": "Avalonia.X11",
-    "version": "12.1.1",
-    "hash": "sha256-/D2+LG3fiOeKprFV82EMzNoKfxSXfh3pDvb+MzNl4Kg="
+    "version": "12.1.3",
+    "hash": "sha256-pjrYlZ9nVRNpp5A3UVDZOfcqGx60AOFlj+VUbg94hC4="
   },
   {
     "pname": "Cogwheel",
@@ -141,8 +141,8 @@
   },
   {
     "pname": "Markdig",
-    "version": "1.3.2",
-    "hash": "sha256-rlIUsV0QBtkdXHsWvJAREQr5XYNQWOGKMOgOKMJ48Zo="
+    "version": "1.4.0",
+    "hash": "sha256-vdhDU6P0mfmJ8xEbM6zuvZQ0+KBpyos9oqBl8iMOe68="
   },
   {
     "pname": "Material.Avalonia",
@@ -186,8 +186,8 @@
   },
   {
     "pname": "PowerKit",
-    "version": "2.3.1",
-    "hash": "sha256-Q1na4zSVLvs86XMwnndXIllDswt8c+uLNucgU+vvC0A="
+    "version": "2.4.0",
+    "hash": "sha256-pAJnIjT74XVxHhF8h72LsWRljcdRItaJMP2lJ+Bps/o="
   },
   {
     "pname": "SkiaSharp",
@@ -221,13 +221,13 @@
   },
   {
     "pname": "ThisAssembly.Constants",
-    "version": "2.1.5",
-    "hash": "sha256-k5qyXzRMGnm7B0reT2yrQN0wh/yd16xyvTPV87rdZxg="
+    "version": "2.1.6",
+    "hash": "sha256-+nvEX0Ms8Vv9XUptqB0+SNIK6vWPCO1kVNu24espASk="
   },
   {
     "pname": "ThisAssembly.Project",
-    "version": "2.1.5",
-    "hash": "sha256-pq5gj4e8drIsS50jsPDbmfBFWSth/Z4UijkQ0fwePcs="
+    "version": "2.1.6",
+    "hash": "sha256-1e8JzBoWnFdf8qWpj2YuLzBRxyMAP9nqX6EO/1KzMB0="
   },
   {
     "pname": "Tmds.DBus.Protocol",
@@ -236,12 +236,12 @@
   },
   {
     "pname": "YoutubeExplode",
-    "version": "6.6.2",
-    "hash": "sha256-NlFkK9hOuq6okF8kVTywXw9jW4emLXbi+T9u42vKQ/c="
+    "version": "6.6.3",
+    "hash": "sha256-e+RgiBkov2iYX1cJvobUAjCPQnroJrm8VmoIjyPOd9M="
   },
   {
     "pname": "YoutubeExplode.Converter",
-    "version": "6.6.2",
-    "hash": "sha256-UjSGlBPPBRidQipkFkumRTGr+HU7o/z3E2i8lfpAe5I="
+    "version": "6.6.3",
+    "hash": "sha256-JkamTM5IGdG0J4m8SFSWrYBbffAw++XKEY9brux+VlI="
   }
 ]
